@@ -20,7 +20,8 @@ a{
 }
 
 .move-bar{
-    
+    position: absolute;
+    left: 1vw;
 }
 .move-bar a, .move-bar span{
     text-align: left;
@@ -56,7 +57,7 @@ a{
     .move-bar-home{
         display: none;
     }
-    
+
     .contact-bar{
         margin-top: 2vh;
     }
