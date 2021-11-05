@@ -1,0 +1,69 @@
+*{
+    box-sizing: border-box;
+    margin: 0rem;
+    padding: 0rem;
+}
+
+html{
+    overflow-x: hidden;
+    font-family: 'Rubik', sans-serif;
+    font-size: 10px;
+    /* Colour pallete */
+    --mist: #8FAFC4;
+    --stone: #336B86;
+    --shadow: #283032;
+    --foliage: #753625;
+}
+
+a{
+    text-decoration: none;
+}
+
+.move-bar{
+    
+}
+.move-bar a, .move-bar span{
+    text-align: left;
+    font-size: 1.6rem;
+    padding: 1vh 0.3vw;
+}
+
+.contact-bar{
+    width: 100vw;
+    height: 3rem;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    /* background-color: var(--foliage); */
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+}
+.contact-bar a, .contact-bar span{
+    
+    padding: 1vh 1vw;
+}
+.contact-bar a{
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 500;
+    /* color: var(--mist); */
+}
+
+
+@media (max-width: 560px) {
+    .move-bar-home{
+        display: none;
+    }
+    
+    .contact-bar{
+        margin-top: 2vh;
+    }
+    .contact-bar a{
+        font-size: 0;
+    }
+    .contact-bar i{
+        font-size: 1.6rem;
+    }
+}
