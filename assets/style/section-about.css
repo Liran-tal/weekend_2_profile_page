@@ -28,9 +28,10 @@
 .left-side{
     width: 30vw;
     padding: 4vh;
+    padding-right: 4vw;
 }
 .about-section-header{
-    padding-bottom: 17.77vh;
+    padding-bottom: 15.5vh;
 }
 .left-side p{
     margin-top: 2vh;
@@ -44,6 +45,7 @@
 .skill-list-container{
     width: 30vw;
     padding: 4vh;
+    padding-left: 4vw;
     display: flex;
     flex-direction: column;
     align-content: center;

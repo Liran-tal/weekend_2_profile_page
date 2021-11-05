@@ -61,28 +61,24 @@
     flex-flow: row;
     justify-content: center;
     align-items: center;
-    /* padding: 1vh 1vw; */
-    /* box-shadow: -0.5vw -1vh 0.3vw lightslategray; */
 }
 .home-main figure img{
     height: 100%;
     width: 100%;
 }
 .home-headlines{
-    padding: 3vh 2vw;
-    text-align: center;
+    padding: 3vh 3vw;
+    margin-left: 2vw;
+    text-align: left;
 }
 .home-headlines h2, .home-headlines h1{
     padding: 4vh 0vw;
-    /* text-shadow: -0.25vw -0.8vh 0.3vw lightslategray; */
 }
 .home-headlines h2{
-    /* font-size: 3rem;
-    font-weight: 600; */
+
 }
 .home-headlines h1{
-    /* font-size: 5rem;
-    font-weight: 600; */
+
 }
 .contact-bar-home{
 
