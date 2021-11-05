@@ -1,0 +1,98 @@
+.about-section{
+    position: relative;
+    min-width: 100vw;
+    min-height: 100vh;
+    padding: 3vh 0vw;
+    background-color: var(--mist);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    overflow-x: hidden;
+}
+.center-view-container{
+    width: 100vw;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 5vh 0vw;
+}
+.move-bar-about{
+    
+}
+
+/*  */
+/* about text section */
+/*  */
+.left-side{
+    width: 30vw;
+    padding: 4vh;
+}
+.about-section-header{
+    padding-bottom: 17.77vh;
+}
+.left-side p{
+    margin-top: 2vh;
+    font-size: 2rem;
+    text-align: justify;
+}
+
+/*  */
+/* skills list */
+/*  */
+.skill-list-container{
+    width: 30vw;
+    padding: 4vh;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: left;
+}
+.skill-list-header{
+    
+}
+.skill-list-subheader{
+    font-size: 2rem;
+}
+.skill-list tr td{
+    padding: 0.3vh 0vw;
+    font-size: 1.8rem;
+}
+.skill-bar-container{
+    height: 1.5rem;
+    background-color: var(--shadow);
+    border-radius: 15px;
+    padding: 5px;
+    
+}
+.skill-bar-progress{
+    display: block;
+    height: 50%;
+    background-color: var(--stone);
+    overflow: hidden;
+}
+.skill-prog1{
+    width: 08%;
+}
+.skill-prog2{
+    width: 18%;
+}
+.skill-prog3{
+    width: 28%;
+}
+.skill-prog4{
+    width: 38%;
+}
+.skill-prog5{
+    width: 48%;
+}
+.skill-prog6{
+    width: 58%;
+}
+.skill-prog7{
+    width: 68%;
+}
+.skill-prog8{
+    width: 78%;
+}

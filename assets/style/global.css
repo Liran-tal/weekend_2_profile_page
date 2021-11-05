@@ -19,6 +19,9 @@ a{
     text-decoration: none;
 }
 
+/*  */
+/* movment div */
+/*  */
 .move-bar{
     position: absolute;
     left: 1vw;
@@ -28,6 +31,13 @@ a{
     font-size: 1.6rem;
     padding: 1vh 0.3vw;
 }
+.move-bar a{
+    margin-right: 2px;
+}
+
+/*  */
+/* contact */
+/*  */
 
 .contact-bar{
     width: 100vw;
@@ -36,7 +46,6 @@ a{
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
-    /* background-color: var(--foliage); */
     text-align: center;
     font-size: 2rem;
     font-weight: 600;
@@ -52,6 +61,22 @@ a{
     /* color: var(--mist); */
 }
 
+/*  */
+/* headers */
+/*  */
+
+h1, h2{
+    padding: 4vh 0vw;
+}
+h1{
+    font-size: 5rem;
+    font-weight: 600;
+}
+h2{
+    font-size: 3rem;
+    font-weight: 600;
+}
+
 
 @media (max-width: 560px) {
     .move-bar-home{
@@ -60,6 +85,8 @@ a{
 
     .contact-bar{
         margin-top: 2vh;
+        position: sticky;
+        background-color: var(--mist);
     }
     .contact-bar a{
         font-size: 0;
