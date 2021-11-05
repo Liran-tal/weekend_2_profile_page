@@ -1,0 +1,13 @@
+.projects-section{
+    position: relative;
+    min-width: 100vw;
+    min-height: 100vh;
+    padding: 3vh 0vw;
+    background-color: var(--mist);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    overflow-x: hidden;
+}
+

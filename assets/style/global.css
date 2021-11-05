@@ -79,7 +79,7 @@ h2{
 
 
 @media (max-width: 560px) {
-    .move-bar-home{
+    .move-bar{
         display: none;
     }
 
