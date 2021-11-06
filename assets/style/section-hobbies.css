@@ -1,5 +1,6 @@
 .hobbies-section{
     position: relative;
+    scroll-snap-align: start;
     min-width: 100vw;
     min-height: 100vh;
     padding: 3vh 0vw;
@@ -20,18 +21,62 @@
     padding-left: 6rem;
 }
 .icons-container{
+    position: relative;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
     align-items: center;
     padding: 3rem;
+    margin-bottom: 20rem;
 }
+
 .hobbie-icon{
     font-size: 6rem;
-    padding: 3rem;
+    padding: 0rem;
+    margin: 3rem;
     text-align: center;
 }
 .hobbie-icon p{
     font-size: 2rem;
     padding: 1rem;
+}
+
+@media (min-width: 800px) {
+    .hobbie-icon:hover::after{
+        content: '';
+        position: absolute;
+        top: 85%;
+        left: 50%;
+        transform: translateX(-50%);
+        height: 25rem;
+        width: 25rem;
+        background-size: cover;
+    }
+    .pet:hover::after{
+        background-image: url(../imgs/cloud-gc90e4f786_1920.jpg);
+    }
+    .hike:hover::after{
+        background-image: url(../imgs/cloud-gc90e4f786_1920.jpg);
+    }
+    .cook:hover::after{
+        background-image: url(../imgs/cloud-gc90e4f786_1920.jpg);
+    }
+    .learn:hover::after{
+        background-image: url(../imgs/cloud-gc90e4f786_1920.jpg);
+    }
+    
+    .puzzle:hover::after{
+        background-image: url(../imgs/cloud-gc90e4f786_1920.jpg);
+    }
+    
+}
+ 
+@media (max-width: 500px) {
+    .icons-container{
+        padding: 1rem;
+        margin-bottom: 0rem;
+    }
+    .hobbie-icon{
+        margin: 1rem 3rem;
+    }
 }

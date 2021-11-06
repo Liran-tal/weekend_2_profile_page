@@ -14,9 +14,17 @@ html{
     --shadow: #283032;
     --foliage: #753625;
 }
+@media (min-width: 800px) {
+    /* scroll */
+    scroll-snap-type: mandatory;
+    scroll-snap-type: y mandatory;  
+}
 
 a{
     text-decoration: none;
+}
+a:visited{
+    color: blue;
 }
 
 /*  */
@@ -28,7 +36,7 @@ a{
 }
 .move-bar a, .move-bar span{
     text-align: left;
-    font-size: 1.6rem;
+    font-size: 2rem;
     padding: 1vh 0.3vw;
 }
 .move-bar a{

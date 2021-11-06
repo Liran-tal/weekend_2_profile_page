@@ -17,9 +17,10 @@
     <link rel="stylesheet" href="assets/style/global.css">
     <link rel="stylesheet" href="assets/style/section-home.css">
     <link rel="stylesheet" href="assets/style/section-about.css">
+    <link rel="stylesheet" href="assets/style/section-hobbies.css">
     <title>Liran Tal</title>
 </head>
-<body>
+<body> 
     <div id="home" class="home-section">
         <div class="navbar-container">
             <nav class="home-navbar">
@@ -30,33 +31,6 @@
             </nav>
         </div>
         <div class="home-main-container">
-            <!-- nav bar shows which section is in view and what are the previous / next sections -->
-            <div class="move-bar move-bar-home">
-                <div class="sections-up">
-                        <a href="#home">
-                            <i class="fas fa-chevron-up"></i>
-                        </a>
-                        <span>
-
-                        </span>
-                </div>
-                <div class="section-in">
-                    <a href="#">
-                        <i class="fas fa-circle"></i>
-                    </a>
-                    <span>
-                        HOME
-                    </span>
-                </div>
-                <div class="sections-down">
-                    <a href="#about">
-                        <i class="fas fa-chevron-down"></i>
-                    </a>
-                    <span>
-                        ABOUT
-                    </span>
-                </div>
-            </div>
             <div class="home-main">
                 <figure class="profile-pic">
                     <!-- TODO: insert profile pic -->
@@ -83,6 +57,7 @@
     <!--  -->
     <section id="about" class="about-section">
         <div class="center-view-container">
+            <!-- move bar shows which section is in view and what are the previous / next sections -->            
             <div class="move-bar move-bar-home">
                 <div class="sections-up">
                     <a href="#home">
@@ -93,7 +68,7 @@
                     </span>
                 </div>
                 <div class="section-in">
-                    <a href="#">
+                    <a href="#about">
                         <i class="fas fa-circle"></i>
                     </a>
                     <span>
@@ -101,7 +76,7 @@
                     </span>
                 </div>
                 <div class="sections-down">
-                    <a href="#about">
+                    <a href="#projects">
                         <i class="fas fa-chevron-down"></i>
                     </a>
                     <span>
@@ -259,8 +234,31 @@
     <!-- PROJECTS -->
     <!--  -->
     <section id="projects" class="projects-section">
-        <div class="arrow-up">
-            <a href="#home"><i class="fas fa-chevron-up"></i></a>
+        <div class="move-bar move-bar-projects">
+            <div class="sections-up">
+                <a href="#about">
+                    <i class="fas fa-chevron-up"></i>
+                </a>
+                <span>
+                    ABOUT
+                </span>
+            </div>
+            <div class="section-in">
+                <a href="#projects">
+                    <i class="fas fa-circle"></i>
+                </a>
+                <span>
+                    PROJECTS
+                </span>
+            </div>
+            <div class="sections-down">
+                <a href="#hobbies">
+                    <i class="fas fa-chevron-down"></i>
+                </a>
+                <span>
+                    HOBBIES
+                </span>
+            </div>
         </div>
         <div>
             <H2 class="projects-gallery-header">My Projects</H2>
@@ -287,46 +285,65 @@
     <!-- HOBBIES -->
     <!--  -->
     <section id="hobbies" class="hobbies-section">
-        <div class="arrow-up">
-            <a href="#home"><i class="fas fa-chevron-up"></i></a>
-        </div>
         <div class="hobbies-gallery-container">
+            <div class="move-bar move-bar-hobbies">
+                <div class="sections-up">
+                    <a href="#projects">
+                        <i class="fas fa-chevron-up"></i>
+                    </a>
+                    <span>
+                        PROJECTS
+                    </span>
+                </div>
+                <div class="section-in">
+                    <a href="#hobbies">
+                        <i class="fas fa-circle"></i>
+                    </a>
+                    <span>
+                        HOBBIES
+                    </span>
+                </div>
+                <div class="sections-down">
+                    <a href="#home">
+                        <i class="fas fa-chevron-down"></i>
+                    </a>
+                    <span>
+                        HOME
+                    </span>
+                </div>
+            </div>
             <h2 class="hobbies-headline">My hobbies</h2>
-            <div class="hobbies-galery">
-                <div class="hobbie-icon">
-                    <figure class="hobbie-img">
-                        <div class="phillip">
-                            <i class="fas fa-paw"></i>
-                        </div>
-                    </figure>
+            <div class="icons-container">
+                <div class="hobbie-icon pet">
+                    <i class="fas fa-paw"></i>
+                    <p>
+                        Animals
+                    </p>
+                </div>   
+                <div class="hobbie-icon cook">
+                    <i class="fas fa-mortar-pestle"></i>
+                    <p>
+                        Cooking
+                    </p>
+                </div>   
+                <div class="hobbie-icon hike">
+                    <i class="fas fa-hiking"></i>
+                    <p>
+                        Hiking
+                    </p>
                 </div>
-            </div>
-            <div class="hobbies-galery">
-                <div class="hobbie-icon">
-                    <figure class="hobbie-img">
-                        <div class="cooking">
-                            <i class="fas fa-mortar-pestle"></i>
-                        </div>
-                    </figure>
-                </div>
-            </div>
-            <div class="hobbies-galery">
-                <div class="hobbie-icon">
-                    <figure class="hobbie-img">
-                        <div class="hiking">
-                            <i class="fas fa-hiking"></i>
-                        </div>
-                    </figure>
-                </div>
-            </div>
-            <div class="hobbies-galery">
-                <div class="hobbie-icon">
-                    <figure class="hobbie-img">
-                        <div class="learning">
-                            <i class="fas fa-book"></i>
-                        </div>
-                    </figure>
-                </div>
+                <div class="hobbie-icon learn">
+                    <i class="fas fa-book"></i>
+                    <p>
+                        Learning
+                    </p>
+                </div>   
+                <div class="hobbie-icon puzzle">
+                    <i class="fas fa-puzzle-piece"></i>
+                    <p>
+                        Puzzles
+                    </p>
+                </div>   
             </div>
         </div>
         <div id="contact-bar" class="contact-bar  contact-bar-hobbies">

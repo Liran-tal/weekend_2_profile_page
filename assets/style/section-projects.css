@@ -1,5 +1,6 @@
 .projects-section{
     position: relative;
+    scroll-snap-align: start;
     min-width: 100vw;
     min-height: 100vh;
     padding: 3vh 0vw;
