@@ -18,7 +18,6 @@
     height: 4.5rem;
     display: flex;
     flex-flow: row wrap;
-    /* TODO: chan flex order of pic and headers in moblie*/
     justify-content: space-around;
     align-items: center;
     background-color: var(--foliage);
