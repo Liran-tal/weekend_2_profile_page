@@ -33,7 +33,7 @@
     color: var(--mist);
 }
 .home-navbar a[href="#home"]{
-    border-bottom: 0.4vh solid black;
+    border-bottom: 0.4vh solid var(--mist);
 }
 /*  */
 /* main section */

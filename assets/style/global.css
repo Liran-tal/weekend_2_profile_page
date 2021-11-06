@@ -13,13 +13,13 @@ html{
     --stone: #336B86;
     --shadow: #283032;
     --foliage: #753625;
+    /* fonts */
+    color: var(--shadow);
 }
 @media (min-width: 800px) {
     html{
         /* scroll */
-        scroll-snap-type: mandatory;
         scroll-snap-type: y mandatory;  
-
     }
 }
 
