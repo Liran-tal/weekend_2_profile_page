@@ -15,9 +15,12 @@ html{
     --foliage: #753625;
 }
 @media (min-width: 800px) {
-    /* scroll */
-    scroll-snap-type: mandatory;
-    scroll-snap-type: y mandatory;  
+    html{
+        /* scroll */
+        scroll-snap-type: mandatory;
+        scroll-snap-type: y mandatory;  
+
+    }
 }
 
 a{
@@ -32,6 +35,8 @@ a:visited{
 /*  */
 .move-bar{
     position: absolute;
+    top: 50vh;
+    transform: translateY(-50%);
     left: 1vw;
 }
 .move-bar a, .move-bar span{

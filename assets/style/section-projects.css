@@ -12,3 +12,56 @@
     overflow-x: hidden;
 }
 
+.projects-container{
+    margin-top: 15vh;
+}
+.projects-gallery-container{
+    border: 5px solid var(--foliage);
+    height: 50vh;
+    width: 40vw;
+    display: flex;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+}
+.projects{
+    height: 100%;
+    width: 100%;
+    scroll-snap-align: start;
+    margin: 0rem 5%;
+    padding: 20% 16%;
+    line-height: 100%;
+    text-align: center;
+    border: solid var(--foliage);
+    border-width: 0px 3px;
+    color: var(--shadow);
+    font-size: 3rem;
+    font-weight: 600;
+}
+.project1{
+    margin-left: 0px;
+    border-left: 0px;
+    background-color: wheat;
+}
+.project2{
+    background-color: thistle;
+}
+.project3{
+    background-color: steelblue;
+}
+.project4{
+    background-color: silver;
+}
+.project5{
+    background-color: palegreen;
+}
+.project6{
+    background-color: lightyellow;
+}
+.project7{
+    background-color: lightsalmon;
+}
+.project8{
+    margin-right: 0px;
+    border-right: 0px;
+    background-color: greenyellow;
+}
