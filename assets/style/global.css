@@ -12,7 +12,7 @@ html{
     --mist: rgb(173, 208, 231);
     --stone: #336B86;
     --shadow: #283032;
-    --foliage: #753625;
+    --foliage: #33160d;
     /* fonts */
     color: var(--shadow);
 }
@@ -25,9 +25,13 @@ html{
 
 a{
     text-decoration: none;
+    color: var(--foliage);
 }
 a:visited{
-    color: blue;
+    color: var(--foliage);
+}
+.fa-chevron-up, .fa-chevron-down{
+    padding-left: 1.3px;
 }
 
 /*  */

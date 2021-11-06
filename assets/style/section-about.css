@@ -28,16 +28,20 @@
 /*  */
 .left-side{
     width: 30vw;
-    padding: 4vh;
+    padding: 4vh 4vw 12vh 0vw;
+
     padding-right: 4vw;
+    /* border: 1px solid brown; */
 }
 .about-section-header{
-    padding-bottom: 15.5vh;
+
 }
 .left-side p{
-    margin-top: 2vh;
     font-size: 2rem;
+    line-height: 5rem;
     text-align: justify;
+    line-height: 3rem;
+    /* border: 1px solid brown; */
 }
 
 /*  */
@@ -51,9 +55,10 @@
     flex-direction: column;
     align-content: center;
     text-align: left;
+    /* border: 1px solid brown; */
 }
 .skill-list-header{
-    
+    /* border: 1px solid brown; */
 }
 .skill-list-subheader{
     font-size: 2rem;
@@ -116,6 +121,9 @@
     }
     .about-section-header{
         padding: 0rem;
+    }
+    .left-side p{
+        margin-top: 2vh;
     }
     .skill-list-header{
         padding: 0rem;
